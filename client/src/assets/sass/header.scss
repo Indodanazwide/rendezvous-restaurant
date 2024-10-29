@@ -1,0 +1,33 @@
+@import '../sass/styles.scss';
+
+header {
+    position: fixed;
+    width: 100vw;
+    padding: 1rem 2rem;
+    background-color: whitesmoke;
+    box-shadow: 0 0.313rem 0.313rem rgba(15, 21, 44, 0.3);
+}
+
+header,
+nav,
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    img {
+        width: 3rem;
+    }
+}
+
+nav {
+    ul {
+        margin-inline: 1rem;
+
+        li {
+            margin-inline: .5rem;
+        }
+    }
+}

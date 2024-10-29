@@ -1,0 +1,71 @@
+// primary colors
+$ebony: #0F152C;
+$mirage: #1D1F33;
+$judge-gray: #594136;
+
+// secondary colors
+$roti: #B2A43B;
+$martini: #B5A4A9;
+$trendy-pink: #9A669B;
+
+// tertiary colors
+$mantis: #7DB95B;
+$hippie-green: #638849;
+
+:root {
+    --font-primary: 'Playfair Display', 'Cormorant Garamond', Georgia, serif;
+    --font-secondary: 'Cinzel', 'Libre Baskerville', 'Times New Roman', serif;
+    --font-body: 'Source Sans Pro', 'Open Sans', 'Helvetica Neue', sans-serif;
+    --font-accent: 'Lora', 'Merriweather', Georgia, serif;
+    --font-alternative: 'Montserrat', 'Raleway', Arial, sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: --font-body;
+    font-size: 1rem;
+    color: $mirage;
+}
+
+h1,
+h2,
+h3 {
+    text-transform: uppercase;
+    color: $ebony;
+}
+
+h1 {
+    font-family: --font-primary;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+h2 {
+    font-family: --font-secondary;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+h3 {
+    font-family: --font-secondary;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+    color: $ebony;
+}
+
+a:hover {
+    color: $trendy-pink;
+}
+
+li {
+    list-style: none;
+}
